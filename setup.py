@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import csky
 from basic_models import VERSION
 
 setup(
