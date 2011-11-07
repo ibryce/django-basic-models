@@ -14,6 +14,8 @@
 
 __all__ = ['u_slugify']
 
+import re
+
 # From http://stackoverflow.com/questions/702337/how-to-make-django-slugify-work-properly-with-unicode-strings
 def u_slugify(txt):
     """A custom version of slugify that retains non-ascii characters. The purpose of this
